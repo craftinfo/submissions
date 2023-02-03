@@ -21,3 +21,23 @@ The help is just the README.md file in the repository.
 
 A craftinfo is also a crafthelp and its README.md is also used.
 
+## How to create a craftinfo repository
+
+Lets say you are github user "moof" and you created a craftinfo for the project "dogcow".
+Here is how it would look like:
+
+``` bash
+cd craftinfos/dogcow-craftinfo
+git init
+git add .
+# vi README.md (nice this up)
+git commit -m "* initial commit"
+# create repo on github, or somewhere else
+git remote add github git@github.com:moof/dogcow-craftinfo.git
+# get LICENSE from github
+git pull --allow-unrelated-histories github master
+git push github
+```
+
+
+
