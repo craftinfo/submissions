@@ -3,7 +3,8 @@
 📩 Submit a craftinfo or crafthelp
 
 If you have a craftinfo or a crafthelp, create an issue and send a link to your repository. 
-If it is accepted your repository will be cloned and end up here.
+If it is accepted your repository will be cloned and end up here. You will be put
+into the craftinfo organization, so that you can maintain your craftinfos.
 
 Memo: the `-craftinfo` is there to disambiguate from the actual project (and the possibility of naming clashes in the cache).
 
